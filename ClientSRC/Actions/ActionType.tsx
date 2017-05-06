@@ -1,0 +1,5 @@
+export const CONSUMED_SQUARE = 'CONSUMED_SQUARE';
+export const PLAYER_TURN = 'PLAYER_TURN';
+export const CHOOSE_SYMBOL = 'CHOOSE_SYMBOL';
+export const PC_ENABLED = 'PC_ENABLED';
+export const MODAL_STATE = 'MODAL_STATE';

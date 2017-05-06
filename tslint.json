@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react"
+  ],
+  "rules": {
+    "quotemark": false,
+    "trailing-comma": false,
+    "member-ordering": false,
+    "variable-name": false
+  }
+}

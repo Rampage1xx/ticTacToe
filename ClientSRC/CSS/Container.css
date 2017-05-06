@@ -1,0 +1,20 @@
+.parent-wrapper {
+    margin-top: 30vh;
+    height: 60%;
+    width: 60%;
+    /*  border: 1px solid black; */
+    margin-left: 20vw;
+}
+
+.parent {
+    display: flex;
+    font-size: 0;
+    flex-wrap: wrap;
+    margin: -10px 0 0 -10px;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+body {
+    background-color: teal ;
+}

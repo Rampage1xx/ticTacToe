@@ -1,0 +1,93 @@
+.child {
+    display: inline-flex;
+    background: rgb(51, 51, 51);
+    margin: 3px;
+    flex-grow: 0;
+    height: 20vh;
+    width: calc(100% * (1 / 3) - 12px);
+    box-shadow: 1px 5px 5px black;
+    justify-content: center;
+}
+
+.child:hover {
+    box-shadow: 1px 14px 5px black;
+    position: relative;
+}
+
+.child:active {
+    background: red;
+    animation: shadow 0.2s;
+}
+
+@keyframes shadow {
+    0% {
+        box-shadow: 1px 4px 5px black;
+    }
+    100% {
+        box-shadow: 0px 0px 0px black;
+    }
+
+}
+
+.red {
+    color: white;
+    justify-content: center;
+    font-size: 50px;
+    align-self: center;
+    margin: 0px;
+    /* ADD FOR  MAGENTA SHADOWS */
+
+    padding: 1vh 2vh 1vh 2vh;
+    /*  box-shadow: inset 0px 0px 20px black;
+      text-shadow: 1px 1px 10px magenta; */
+
+}
+
+.activeCircle {
+    /* text-shadow: 1px 1px 10px magenta; */
+    animation: circleShadow 3.5s infinite alternate;
+}
+
+@keyframes circleShadow {
+    to {
+        text-shadow: 1px 1px 50px magenta;
+    }
+}
+
+.activeCross {
+    animation: crossShadow 3.5s infinite alternate;
+
+}
+
+@keyframes crossShadow {
+    to {
+        text-shadow: 1px 1px 50px lime;
+    }
+}
+
+.consumedSquare {
+    display: inline-flex;
+    /*  background:rgb(51,51,51); */
+    margin: 3px;
+    flex-grow: 0;
+    height: 20vh;
+    width: calc(100% * (1 / 3) - 12px);
+    justify-content: center;
+    box-shadow: 0px 0px 0px black;
+    background: radial-gradient(5vh 5vh, grey, rgb(51, 51, 51));
+}
+
+.modalPosition {
+    margin-top: 30vh;
+}
+
+.modalSize {
+    height: 20vh;
+}
+
+@media screen and (max-height: 1366px) {
+    .red {
+
+    }
+
+}
